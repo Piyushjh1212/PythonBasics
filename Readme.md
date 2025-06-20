@@ -70,3 +70,21 @@
 | 2️⃣0️⃣ | `f"{a} is {type(a)}"`          | Formatted string using `f""`        | Smart display with value and type                   |
 
 
+## Conditional statement
+
+| 🔢 No. | 🔸 Concept Name                  | 🔍 Description                                                                 | 🧪 Example / Syntax                               |
+| ------ | -------------------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------- |
+| 1      | `if` Statement                   | Basic condition check.                                                         | `if age > 18:`                                    |
+| 2      | `if...else` Statement            | Two-way decision: True → A, False → B                                          | `if n % 2 == 0: print("Even") else: print("Odd")` |
+| 3      | `if...elif...else`               | Multiple conditions.                                                           | `if marks > 90: ... elif > 70: ... else: ...`     |
+| 4      | `and`, `or`, `not` (Logical)     | Combine multiple conditions in `if`.                                           | `if age > 18 and has_id:`                         |
+| 5      | Chained Comparisons              | Clean syntax for range conditions.                                             | `if 10 < x < 100:`                                |
+| 6      | Membership: `in`, `not in`       | Check if a value exists in a sequence.                                         | `if item in ['pen', 'book']:`                     |
+| 7      | Ternary Operator                 | One-line short if-else.                                                        | `status = "Pass" if marks >= 33 else "Fail"`      |
+| 8      | Nested `if`                      | `if` inside another `if`.                                                      | `if age > 18: if gender == "M": ...`              |
+| 9      | Boolean Flag Conditions          | Use variables like `is_ready`, `logged_in`.                                    | `if not logged_in:`                               |
+| 10     | Dictionary as Switch             | Use `dict.get()` as alternative to `if-elif` chain.                            | `{"add": a + b, "sub": a - b}.get(op, "Invalid")` |
+| 11     | `match-case` (Python 3.10+)      | Real `switch-case` style logic.                                                | `match var: case 1: ... case 2: ... case _: ...`  |
+| 12     | `assert` as Condition            | Raise error if condition fails (used in testing).                              | `assert age >= 18, "Underage"`                    |
+| 13     | Conditions in `loops`, `try`     | Use `if` inside `for`, `while`, `try` for control flow.                        | `for i in range(5): if i == 3: break`             |
+| 14     | Short-circuiting with `and`/`or` | Conditions that execute only if needed (`and` skips second if first is False). | `x > 0 and print("x is positive")`                |
